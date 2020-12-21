@@ -17,7 +17,7 @@ const number = Number(input);
 const month = Number.isNaN(number) ? map.get(input) : map.get(number);
 
 if (!month) {
-  alert.log('Wrong value');
+  alert('Wrong value');
 } else {
-  alert.log(month);
+  alert(month);
 }
