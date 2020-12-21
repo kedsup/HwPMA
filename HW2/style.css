@@ -23,7 +23,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow-x: auto;
 }
 #pageHeader > h2 {
   font-size: 200%;
@@ -36,7 +35,7 @@ body {
 }
 #mainArticle {
   grid-area: article;
-  overflow-y: scroll;
+  overflow: auto;
 }
 #mainArticle > h2 {
   padding: 5px 0px;
